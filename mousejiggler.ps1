@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 
-while ($true):
+while ($true)
 {
   # Get the position of the cursor
   $pos = [System.Windows.Forms.Cursor]::Position
