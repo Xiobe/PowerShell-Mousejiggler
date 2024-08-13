@@ -28,5 +28,5 @@ while ($true)
   # Move the cursor to the new position
   [windows.forms.cursor]::Position = "$($x),$($y)"
   # Wait
-  Start-Sleep -Seconds $waitYe
+  Start-Sleep -Seconds $wait
 }
